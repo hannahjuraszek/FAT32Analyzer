@@ -6,7 +6,7 @@ AUTHORS:
 
 VERSION: 
 
-	4 December 2019
+	12 December 2019
 
 
 DESCRIPTION:
@@ -26,8 +26,8 @@ INSTRUCTIONS:
 	This will bring up the command line asking for the path of the FAT32 image to parse. If the 
 	image is not in the same directory as the .bat file, an absolute path is needed. Next, input 
 	the desired output file name with a .dd extension. Again, use an absolute path if needed.
-	After inputting the file names, if the file names are correct, press enter and the
-	tool will begin. The repaired image will be outputted to the desired output file name.
+	After inputting the file names, if the file names are correct, press enter and the tool will 
+	begin. The repaired image will be outputted to the desired output file name.
 	
 	To start the FAT32Analyzer on a Linux/MacOS computer, open terminal and navigate into the 
 	directory that houses FAT32Analyzer.java. In the terminal, type the command 'javac 
@@ -35,6 +35,9 @@ INSTRUCTIONS:
 	theNameOrPathOfYourInputFile.dd theNameOrPathOfYourDesiredOutputFile.dd' and press enter.
 	The tool will begin, and the repaired image will be outputted to the desired output file
 	name.
+	
+	Any discrepancies that could not be automatically repaired will be reported to the user via 
+	the terminal, including the offset at which they occur.
 	
 
 
